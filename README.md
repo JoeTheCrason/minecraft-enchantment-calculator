@@ -11,14 +11,14 @@ How To Use:
 3. Choose the least total levels or least prior‑work option.
 4. Calculate & follow the step‑by‑step plan shown.
 
- Key Features:
- • Interactive UI that auto-disables invalid options.
- • Prior-work input for already-used items.
- • Instant, proven-optimal results (no guess-and-check).
+Key Features:
+• Interactive UI that auto-disables invalid options.
+• Prior-work input for already-used items.
+• Instant, proven-optimal results (no guess-and-check).
 
- Tips & Assumptions:
- • Start all gear & books at zero prior-work.
- • Use high-level books (IV+) for max-level enchants.
- • Incompatible enchants are greyed-out automatically.
- • Clicking a new level clears any lower choice.
- • Enable “Allow incompatible” only if needed.
+Tips & Assumptions:
+• Start all gear & books at zero prior-work.
+• Use high-level books (IV+) for max-level enchants.
+• Incompatible enchants are greyed-out automatically.
+• Clicking a new level clears any lower choice.
+• Enable “Allow incompatible” only if needed.
