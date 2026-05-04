@@ -6,10 +6,10 @@ When enchanting items in Minecraft, the order in which you combine armor, weapon
 This tool assumes your gear and books start with zero work penalty. In other words, you haven’t previously merged lower-level books (e.g. two Level 1 → Level 2) or used the anvil on that item. To achieve max-level enchantments you should begin with high-level books (from villager trading) rather than chaining smaller books.
 
 How To Use:
- 1. Pick an item from the drop‑down.
- 2. The level buttons describe current & desired enchants.
- 3. Choose the least total levels or least prior‑work option.
- 4. Calculate & follow the step‑by‑step plan shown.
+• 1. Pick an item from the drop‑down.
+• 2. The level buttons describe current & desired enchants.
+• 3. Choose the least total levels or least prior‑work option.
+• 4. Calculate & follow the step‑by‑step plan shown.
 
  Key Features:
  • Interactive UI that auto-disables invalid options.
