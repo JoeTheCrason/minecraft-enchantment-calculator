@@ -312,12 +312,10 @@ function refreshPanels() {
 form.addEventListener('submit', e => {
     e.preventDefault();
     const proxyUrl = 'https://thingproxy.freeboard.io/fetch/';
-    fetch(proxyUrl + form.action, {
+    fetch(proxyUrl + encodeURIComponent(form.action), {
         method: 'POST',
-        body: new FormData(form)
-    }).then(r => r.redirected
-        ? window.location = r.url
-        : r.text()
+        body: new URLSearchParams(new FormData(form))
+    }).then(r => r.text()
     ).then(html => {
         if (!html) return;
         resBlk.innerHTML = html;
