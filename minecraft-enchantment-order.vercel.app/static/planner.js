@@ -311,8 +311,8 @@ function refreshPanels() {
 
 form.addEventListener('submit', e => {
     e.preventDefault();
-    const proxyUrl = 'https://corsproxy.io/?';
-    fetch(proxyUrl + encodeURIComponent(form.action), {
+    const proxyUrl = 'https://thingproxy.freeboard.io/fetch/';
+    fetch(proxyUrl + form.action, {
         method: 'POST',
         body: new FormData(form)
     }).then(r => r.redirected
